@@ -1,0 +1,19 @@
+{
+  "name": "tdd-hooks",
+  "version": "1.0.0",
+  "description": "tdd hook test",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "node node_modules/vitest/dist/cli.js run",
+    "test:watch": "node node_modules/vitest/dist/cli.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tsx": "^4.21.0"
+  },
+  "dependencies": {
+    "vitest": "^4.0.18"
+  }
+}
